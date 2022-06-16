@@ -5,6 +5,8 @@ import Header from "./components/Header/header.components";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
 import { Aligner } from "./components/Aligner";
+import SobreNos from "./pages/sobre-nos";
+import ReservatorioVerificar from "./pages/niveis-de-reservatorio";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Aligner>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/sobre-nos" element={<SobreNos />} />
+          <Route path="/niveis-de-reservatorio" element={<ReservatorioVerificar />} />
         </Routes>
         </Aligner>
       </BrowserRouter>
