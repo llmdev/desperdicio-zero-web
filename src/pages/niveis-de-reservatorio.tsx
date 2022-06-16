@@ -28,7 +28,7 @@ function handleSubmit(event){
             <Titulo2>Verificar nível:</Titulo2>   
             <Texto>Informe seu estado</Texto>
             <form action="" onSubmit={handleSubmit}>
-              <Dropdown placeholder="Selecione seu estado" />
+              <Dropdown/>
               <InputSubmit/>
             </form>
             <Titulo2>Porque economizar água?</Titulo2>

@@ -10,7 +10,6 @@ function Dropdown (){
            <DropdownOption value="Minas Gerais">Minas Gerais</DropdownOption>
            <DropdownOption value="Espirito Santo">Espirito Santo</DropdownOption>
         </DropdownSelect>
-    
     </DropdownLabel>
     );
 }

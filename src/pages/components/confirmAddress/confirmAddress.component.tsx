@@ -1,4 +1,13 @@
-export function ConfirmAddress({setAddress, address, setActiveStep}) {
+import { IAddress, newAddress } from "../../ReportarVazamento";
+export function ConfirmAddress({
+  setAddress,
+  address,
+  setActiveStep,
+}: {
+  setAddress: React.Dispatch<React.SetStateAction<IAddress>>;
+  address: IAddress;
+  setActiveStep: React.Dispatch<React.SetStateAction<number>>;
+}) {
   return (
     <>
       <h1 style={{ fontSize: 48, textAlign: "center" }}>Confirme o endereço</h1>
@@ -83,7 +92,7 @@ export function ConfirmAddress({setAddress, address, setActiveStep}) {
         </div>
 
         <button
-        onClick={() => setActiveStep(1)}
+          onClick={() => setActiveStep(1)}
           style={{
             backgroundColor: "#0097F5",
             color: "white",
@@ -98,12 +107,10 @@ export function ConfirmAddress({setAddress, address, setActiveStep}) {
           Sim, continuar
         </button>
         <button
-        onClick={() => setAddress({})}
+          onClick={() => setAddress(newAddress)}
           style={{
             backgroundColor: "transparent",
-            color: "white",
             flex: 1,
-            border: "none",
             padding: 16,
             fontSize: 16,
             marginTop: 10,

@@ -1,4 +1,4 @@
-export function Contact({ setActiveStep }) {
+export function Contact({ setActiveStep }: { setActiveStep: React.Dispatch<React.SetStateAction<number>>}) {
   return (
     <>
       <h1 style={{ fontSize: 48, textAlign: "center" }}>Dados para contato</h1>

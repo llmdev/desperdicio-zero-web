@@ -3,7 +3,7 @@ import volume2 from "../../../assets/volume2.png";
 import volume3 from "../../../assets/volume3.png";
 import {VolumeItens} from './volume.style';
 
-export function Volume({ setActiveStep }) {
+export function Volume({ setActiveStep }: {setActiveStep: React.Dispatch<React.SetStateAction<number>>}) {
   return (
     <>
       <h1 style={{ fontSize: 48, textAlign: "center" }}>Volume do vazamento</h1>

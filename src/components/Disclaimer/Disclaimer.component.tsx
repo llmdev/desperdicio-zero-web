@@ -1,7 +1,7 @@
 import React from "react";
 import {DisclaimerComponent,  DisclaimerIcon, DisclaimerTexto, DisclaimerWrapper } from "./Disclaimer.style";
 
-function Disclaimer({img,text, type} ){
+function Disclaimer({img,text, type}: {img: any, text: string, type: string } ){
     return(
         <DisclaimerWrapper>
             <DisclaimerComponent type={type}>

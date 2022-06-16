@@ -1,8 +1,8 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import { useNavigate } from "react-router-dom";
 import { CardButtonWrapper } from "./cardButton.style";
 
-function CardButton({ children, to }) {
+function CardButton({ children, to }: {children: ReactElement,  to: string}) {
   const navigate = useNavigate();
 
   return (

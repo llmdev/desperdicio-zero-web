@@ -1,7 +1,8 @@
 import React from "react";
 import {CircularProgress}  from '@mui/material';
+import { IAddress } from "../../ReportarVazamento";
 
-export function BuscaCep({ setAddress }: {setAddress: React.Dispatch<React.SetStateAction<{}>>}) {
+export function BuscaCep({ setAddress }: {setAddress: React.Dispatch<React.SetStateAction<IAddress>>}) {
 
   const [inputCep, setInputCep] = React.useState<string>('');
   const [loading, setLoading] = React.useState<boolean>(false);

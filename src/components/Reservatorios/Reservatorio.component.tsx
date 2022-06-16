@@ -1,7 +1,7 @@
 import React from "react";
 import { ReservatorioChave, ReservatorioLinha, ReservatorioLista, ReservatorioNome, ReservatorioValor, ReservatorioWrapper } from "./Reservatorio.style";
 
-function Reservatorio({nome}){
+function Reservatorio({nome}: {nome: string}){
     return(
         <ReservatorioWrapper>
             <ReservatorioNome>{nome}</ReservatorioNome>

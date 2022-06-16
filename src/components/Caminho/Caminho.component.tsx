@@ -1,7 +1,7 @@
 import React from "react";
 import { CaminhoAtual, PaginaAtual, PaginaInicial } from "./Caminho.style";
 
-function Caminho ({atual}){
+function Caminho ({atual}: {atual: string}){
     return(
             <CaminhoAtual>
                 <PaginaInicial>

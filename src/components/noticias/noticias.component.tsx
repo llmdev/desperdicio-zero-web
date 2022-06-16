@@ -1,7 +1,7 @@
 import React from "react";
 import { NoticiasImagem, NoticiasLink, NoticiasTexto, NoticiasTitulo, NoticiasWrapper, WrapperText } from "./noticias.style";
 
-function Noticias ({img, name, text, alt}){
+function Noticias ({img, name, text, alt}: {img:any, name: string, text: string, alt: string}){
     return(
             <NoticiasWrapper>
                 <NoticiasImagem src={img} alt={alt} />
