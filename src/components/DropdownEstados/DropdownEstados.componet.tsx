@@ -4,7 +4,7 @@ import { DropdownLabel, DropdownOption, DropdownSelect } from "./DropdownEstados
 function Dropdown (){
     return(
     <DropdownLabel>
-        <DropdownSelect name="estados" id="estados">
+        <DropdownSelect name="estados" id="estados">      
            <DropdownOption value="São Paulo">São Paulo</DropdownOption>
            <DropdownOption value="Rio de Janeiro">Rio de Janeiro</DropdownOption>
            <DropdownOption value="Minas Gerais">Minas Gerais</DropdownOption>

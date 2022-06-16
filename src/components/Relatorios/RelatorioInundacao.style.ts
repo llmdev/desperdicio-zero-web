@@ -20,6 +20,8 @@ export const RelatorioTitulo = styled('summary')`
 export const RelatorioLista = styled('ul')`
     margin: 0;
     padding: 0;
+    border-bottom: 1px solid #D7DFE0;
+    border-top: 1px solid #D7DFE0;
 `
 export const RelatorioLinha = styled('li')`
     display: flex;
