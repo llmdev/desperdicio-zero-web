@@ -14,7 +14,3 @@ export const CardButtonWrapper = styled('button')`
     font-size: 18px;
 
 `
-export const Row = styled('div')`
-    display: flex;
-    justify-content: space-between;
-    ` 

@@ -17,6 +17,8 @@ function Header() {
 
         <Link to="/reportar-vazameto">Reportar vazamento</Link>
 
+        <Link to="/niveis-de-reservatorio">Niveis de Reservatório</Link>
+
         <Link to="/alerta-de-inundacao">Alerta de inundação</Link>
       </nav>
       </S.AlignerHeader>
