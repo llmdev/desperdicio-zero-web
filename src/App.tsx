@@ -9,6 +9,7 @@ import SobreNos from "./pages/sobre-nos";
 import ReservatorioVerificar from "./pages/niveis-de-reservatorio";
 import ReservatorioNiveis from "./pages/niveis-de-reservatorio2";
 import AlertaInundacao from "./pages/alerta-de-inundacao";
+import { ReportarVazamento } from "./pages/ReportarVazamento";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Aligner>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/reportar-vazameto" element={<ReportarVazamento />} />
           <Route path="/sobre-nos" element={<SobreNos />} />
           <Route path="/niveis-de-reservatorio" element={<ReservatorioVerificar />} />
           <Route path="/niveis-de-reservatorio2" element={<ReservatorioNiveis />} />

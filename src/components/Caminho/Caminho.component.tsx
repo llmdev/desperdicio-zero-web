@@ -5,14 +5,12 @@ function Caminho ({atual}){
     return(
             <CaminhoAtual>
                 <PaginaInicial>
-                    Página Inicial >
+                    Página Inicial {'>'}
                 </PaginaInicial>
                 <PaginaAtual>
                     {atual}
                 </PaginaAtual>
             </CaminhoAtual>
-
-
     );
 }
 
