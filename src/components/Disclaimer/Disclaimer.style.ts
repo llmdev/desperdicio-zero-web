@@ -7,6 +7,7 @@ export const DisclaimerComponent = styled('div')`
     background-color: ${({type}) => type === 'warning' ? 'yellow' : 'green'};
     padding: 0 1em;
     display: flex;
+    border-radius: 5px;
 `
 export const DisclaimerIcon = styled('img')`
     padding-right: 1em;

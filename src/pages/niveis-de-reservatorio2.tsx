@@ -1,5 +1,6 @@
 import React from "react";
 import Caminho from "../components/Caminho/Caminho.component";
+import VoceEsta from "../components/Caminho/VoceEsta.component";
 import {Titulo} from "../components/Titulo";
 import Reservatorio from "../components/Reservatorios/Reservatorio.component";
 import Disclaimer from "../components/Disclaimer/Disclaimer.component";
@@ -9,8 +10,9 @@ function ReservatorioNiveis() {
 
     return (
     <div>
-        <Caminho atual="Niveis de Reservatórios"/>
+        <Caminho voceesta='Página inicial' atual="Niveis de Reservatórios"/>
         <Titulo>Niveis de Reservatório</Titulo>
+        <VoceEsta cidade='São Paulo' />
         <Reservatorio nome='Alto Tietê'/>
         <Reservatorio nome='Cantareira'/>
         <Reservatorio nome='Guarapiranga'/>
