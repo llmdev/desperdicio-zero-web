@@ -2,7 +2,7 @@ import React, { ReactElement } from "react";
 import { useNavigate } from "react-router-dom";
 import { CardButtonWrapper } from "./cardButton.style";
 
-function CardButton({ children, to }: {children: ReactElement,  to: string}) {
+function CardButton({ children, to }: {children: string,  to: string}) {
   const navigate = useNavigate();
 
   return (
