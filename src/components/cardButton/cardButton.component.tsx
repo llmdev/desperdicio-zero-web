@@ -1,12 +1,15 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { CardButtonWrapper } from "./cardButton.style";
 
-function CardButton({children}){
-    return(
-            <CardButtonWrapper>
-                {children}
-            </CardButtonWrapper>
-    );
+function CardButton({ children, to }) {
+  const navigate = useNavigate();
+
+  return (
+    <CardButtonWrapper onClick={() => navigate(to)}>
+      {children}
+    </CardButtonWrapper>
+  );
 }
 
 export default React.memo(CardButton);

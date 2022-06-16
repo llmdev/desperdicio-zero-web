@@ -12,5 +12,6 @@ export const CardButtonWrapper = styled('button')`
     align-items: center;
     justify-content: center;
     font-size: 18px;
-
+    cursor: pointer;
+    font-weight: bold;
 `

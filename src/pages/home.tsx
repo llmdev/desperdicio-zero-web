@@ -11,9 +11,9 @@ function Home() {
   <div>
     <h2>Serviços</h2>
       <Row>
-        <CardButton>Reportar vazamento</CardButton>
-        <CardButton>Alerta de Inundações</CardButton>
-        <CardButton>Níveis de Reservatórios</CardButton>
+        <CardButton to="/reportar-vazameto">Reportar vazamento</CardButton>
+        <CardButton to="/alerta-de-inundacao">Alerta de Inundações</CardButton>
+        <CardButton to="/niveis-de-reservatorio">Níveis de Reservatórios</CardButton>
       </Row>
     <h2>Noticias</h2>
         <Row>

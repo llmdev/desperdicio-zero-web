@@ -1,15 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Logo from "../../assets/logo.svg";
 import { Aligner } from "../Aligner";
 import * as S from './header.style';
 
 function Header() {
+  const navigate = useNavigate();
   return (
     <S.Wrapper>
     <Aligner>
       <S.AlignerHeader>
-      <img src={Logo} />
+      <img src={Logo} style={{ cursor: 'pointer' }} onClick={() => navigate('/')}/>
       <nav>
         <Link to="/">Página inicial</Link>
 
