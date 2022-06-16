@@ -7,6 +7,7 @@ import Home from "./pages/home";
 import { Aligner } from "./components/Aligner";
 import SobreNos from "./pages/sobre-nos";
 import ReservatorioVerificar from "./pages/niveis-de-reservatorio";
+import ReservatorioNiveis from "./pages/niveis-de-reservatorio2";
 import AlertaInundacao from "./pages/alerta-de-inundacao";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/sobre-nos" element={<SobreNos />} />
           <Route path="/niveis-de-reservatorio" element={<ReservatorioVerificar />} />
+          <Route path="/niveis-de-reservatorio2" element={<ReservatorioNiveis />} />
           <Route path="/alerta-de-inundacao" element={<AlertaInundacao />} />
         </Routes>
         </Aligner>

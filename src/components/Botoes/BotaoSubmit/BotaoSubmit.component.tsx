@@ -1,11 +1,10 @@
 import React from "react";
-import { BotaoEnviar } from "./BotaoSubmit.style";
+import {InputSubmit} from "./BotaoSubmit.style"
 
-function BotaoSubmit ({frase}){
+function BotaoSubmit (){
     return(
     <div>
-        <BotaoEnviar>{frase}</BotaoEnviar>
-
+        <InputSubmit />
     </div>
     );
 }

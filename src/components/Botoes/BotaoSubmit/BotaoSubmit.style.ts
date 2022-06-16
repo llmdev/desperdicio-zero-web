@@ -1,13 +1,23 @@
 import styled from 'styled-components';
 
 export const BotaoSubmit = styled('button')`
-    width: 666px;
-    height: 60px;
-    background-color: #D7DFE0;
-    color: #F1F4F4;
-    margin-top: 1em;
-`
-export const BotaoEnviar = styled('button')`
-    color: black;
+
 `
 
+export const InputSubmit = styled.input.attrs(props => ({
+    type: 'submit',
+    })
+    )`
+    border-radius: 3px;
+    border: 1px solid palevioletred;
+    display: block;
+    margin: 0 0 1em;    
+    width: 666px;
+    height: 60px;
+    background-color: #F1F4F4;
+    color: #90A5A8;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;`
+    
+    

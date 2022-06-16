@@ -8,6 +8,7 @@ export const NoticiasWrapper = styled('div')`
     height: 413px;
     border: none;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
 ` 
 export const WrapperText = styled('div')`
     margin: 1em;
